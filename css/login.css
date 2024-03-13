@@ -1,0 +1,46 @@
+#login {
+    height:100%;
+    width:350px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#login > div:first-of-type{
+    text-align: center;
+}
+
+#login > div {
+    height:20%;
+    margin-top:30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+
+
+#login > div > div {
+    display: flex;
+    width:100%;
+    justify-content: space-evenly;
+}
+
+#login input[type='submit'] {
+    padding:10px;
+    font:inherit;
+    width:100px;
+    border-radius:5px;
+}
+
+#login input[type='submit']:hover, #login input[type='button']:hover {
+    color:white;
+    background-color: black;
+}
+
+#login input[type='button'] {
+    padding:10px;
+    font:inherit;
+    width:100px;
+    border-radius:5px;
+}
