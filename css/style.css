@@ -53,5 +53,7 @@ ul {
     height:350px;
     display: flex;
     justify-content: center;
+    border:2px solid green;
+    background-image: url('/images/tealimage.jpg');
 }
 
