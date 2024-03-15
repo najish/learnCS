@@ -10,12 +10,21 @@
 
 #login>div:first-of-type>h2 {
     text-align: center;
+    color:rgb(66, 245, 164);
 }
 
-#login input[type='text password'] {
+#login label {
+    margin-left:20px;
+}
+
+#login input[type='text'] {
     height:30px;
+    margin-right:50px;
 }
-
+#login input[type='text'] {
+    font-weight: bold;
+    font-family: cursive;
+}
 #login>div>div {
     display:flex;
     justify-content: space-between;
@@ -49,7 +58,12 @@ a.cancel-btn, input[type='submit'] {
     height: 50px;
     background-color:white;
     border-radius:5px;
-    color:black;
+    background-color:rgb(66, 245, 164);
     font-weight: bold;
     padding:20px;
+}
+
+a.cancel-btn {
+    font-weight: bold;
+    background-color: red;
 }
