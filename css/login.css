@@ -1,13 +1,10 @@
 #login {
-    height:100%;
-    width:350px;
+    width:500px;
     font-family: cursive;
     font-weight: bold;
 }
 
-#login > div:first-of-type{
-    text-align: center;
-}
+
 
 #login > div {
     height:20%;
@@ -16,9 +13,6 @@
     align-items: center;
     justify-content:space-between;
 }
-
-
-
 
 #login > div > div {
     display: flex;
@@ -36,6 +30,7 @@
 #login input[type='submit']:hover, #login input[type='button']:hover {
     color:white;
     background-color: black;
+    padding:5px;
 }
 
 #login input[type='button'] {

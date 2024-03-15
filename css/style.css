@@ -50,10 +50,19 @@ ul {
 
 
 #container {
-    height:350px;
+    height:550px;
     display: flex;
     justify-content: center;
     border:2px solid green;
+    background-color: red;
     background-image: url('/images/tealimage.jpg');
 }
 
+#login>div:first-of-type>h2 {
+    text-align: center;
+    border:2px solid green;
+}
+
+#signup>div:first-of-type>h2 {
+    text-align: center;
+}
