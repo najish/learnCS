@@ -10,7 +10,6 @@ a {
     text-decoration: none;
 }
 
-
 nav#nav-bar {
     display:flex;
     justify-content: space-between;
@@ -18,24 +17,19 @@ nav#nav-bar {
     margin-bottom:10px;
 }
 
-
 nav#nav-bar > ul {
     display: flex;
     justify-content:space-between;
     padding:10px;
 }
 
-
 nav#nav-bar > ul > li {
     margin:5px 10px;
 }
 
-
-
 nav#nav-bar > ul > li > a {
     padding:5px 10px;
     border-radius: 5px;
-    font-family:cursive;
     font-weight: bold;
 }
 
@@ -48,12 +42,16 @@ ul {
     list-style-type: none;
 }
 
-
 #container {
-    height:350px;
+    height:550px;
     display: flex;
     justify-content: center;
-    border:2px solid green;
     background-image: url('/images/tealimage.jpg');
 }
 
+
+
+.form {
+    width:350px;
+    font-weight:bold;
+}
