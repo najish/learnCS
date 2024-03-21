@@ -28,12 +28,18 @@ nav#nav-bar > ul > li {
 }
 
 nav#nav-bar > ul > li > a {
+    /* transition-property: background-color;
+    transition-duration: 5ms;
+    transition-timing-function: ease-in; */
     padding:5px 10px;
     border-radius: 5px;
     font-weight: bold;
 }
 
 nav#nav-bar > ul > li > a:hover {
+    transition-property: background-color;
+    transition-duration: 5ms;
+    transition-timing-function: ease-in;
     background-color:purple;
     color:white;
 }
