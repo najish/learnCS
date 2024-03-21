@@ -46,7 +46,7 @@ ul {
     height:550px;
     display: flex;
     justify-content: center;
-    background-image: url('/images/tealimage.jpg');
+    background-image: url('/public/assets/images/tealimage.jpg');
 }
 
 
@@ -54,4 +54,7 @@ ul {
 .form {
     width:500px;
     font-weight:bold;
+    margin-top:50px;
+    margin-bottom:50px;
+    border-radius:5px;
 }

@@ -29,9 +29,12 @@
 
 #signup>div>div>input[type='text'] {
     margin-right:50px;
+    border-radius: 5px;
 }
 #signup>div>div>input[type='password'] {
     margin-right:50px;
+    border-radius: 5px;
+
 }
 
 #signup input {

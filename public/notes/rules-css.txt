@@ -1,0 +1,12 @@
+===================ALL THE RULE FOR CSS ARE HERE READ IT THROUGHT AND WRITE THE CSS CODE AS DESCRIBED=======================
+
+1. CSS CLASSNAME, ID FULL NAME AND MULTIPLE WORDS WILL BE SEPERATED WITH DASH 
+
+Example : 
+    class = 'person-information-details'
+
+2. Always use single qoute in css 
+
+Example :  background-color: 'red'
+
+3. 

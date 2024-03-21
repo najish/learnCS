@@ -1,0 +1,24 @@
+<div class="course">
+    <div>
+        <a>Add Course</a>
+    </div>
+
+    <form class="add-course form" method="post" action="http://localhost:3000/students/addStudent">
+        <div>
+            <label for="coures-title">Course Title</label>
+            <input id="coures-title" name="coures-title" type="text" placeholder="Enter course title.."/>
+        </div>
+        <div>
+            <label for="coures-author">Author Name</label>
+            <input id="coures-author" name="coures-author" type="text" placeholder="Enter author name.."/>
+        </div>
+        <div>
+            <label for="coures-images">Course Images</label>
+            <input id="coures-images" name="coures-images" type="file" multiple/>
+        </div>
+        <div>
+            <input type="submit" value="Add Course" />
+            <a href="/index.html">Cancel</a>
+        </div>
+    </form>
+</div>

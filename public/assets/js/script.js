@@ -35,9 +35,10 @@ function loadHtmlFile(url) {
 }
 courses.addEventListener('click', e => {
     e.preventDefault();
-    console.log('buttton is clicked');
+    console.log('courses is clicked');
     loadJsonData('http://localhost:3000/students');
-
+    // loadHtmlFile('/public/courses/course.html');
+    loadHtmlFile('/public/pages/courses/course.html');
 });
 home.addEventListener('click',e => {
     e.preventDefault();
@@ -46,12 +47,12 @@ home.addEventListener('click',e => {
 
 loginbtn.addEventListener('click',e => {
     e.preventDefault();
-    loadHtmlFile("/forms/login.html");
+    loadHtmlFile("/public/pages/forms/login.html");
 });
 
 signupbtn.addEventListener('click', e => {
     e.preventDefault();
-    loadHtmlFile("/forms/signup.html");
+    loadHtmlFile("/public/pages/forms/signup.html");
 })
 
 
@@ -60,3 +61,23 @@ links.forEach(e => {
         event.preventDefault();
     });
 });
+
+
+function submitForm(event) {
+    event.preventDefault();
+    var formData = new FormData(document.getElementById('login'));
+    fetch('http://localhost:3000/login',{
+        method:'POST',
+        headers: {
+
+        },
+        body: JSON.stringify(formData),
+        mode: 'no-cors',
+    }).then(response => {
+        if(!response.ok) console.error('response code : not okay');
+        return response.json();
+    }).then(data => {
+        console.log(data);
+    })
+}
+

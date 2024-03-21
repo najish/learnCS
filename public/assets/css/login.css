@@ -17,13 +17,13 @@
     margin-left:20px;
 }
 
-#login input[type='text'] {
-    height:30px;
-    margin-right:50px;
-}
+
 #login input[type='text'] {
     font-weight: bold;
     font-family: cursive;
+    height:30px;
+    margin-right:50px;
+    border-radius: 5px;
 }
 #login>div>div {
     display:flex;
